@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --ivory: #f8f6f1;
+  --deep-navy: #172536;
+  --warm-taupe: #b6a58d;
+  --soft-sage: #a9b5a2;
+  --charcoal: #252525;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ivory);
+  color: var(--charcoal);
+  font-family: "Inter", "Manrope", system-ui, -apple-system, sans-serif;
+}
+
+.font-heading {
+  font-family: "DM Serif Display", "Cormorant Garamond", Georgia, serif;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-3xl text-[var(--deep-navy)] sm:text-4xl;
+  font-family: "DM Serif Display", "Cormorant Garamond", Georgia, serif;
+}
